@@ -1,0 +1,78 @@
+
+body {
+font-family: "Nunito Sans", sans-serif;
+background-color: rgb(158, 158, 158)
+}
+
+.titulo{
+padding: 1rem;
+text-align: center;
+color: rgb(0, 0, 0);
+text-shadow: 10px 10px 10px #70623d;    
+}
+.titulos{
+text-align: center; 
+padding: 1rem;
+color: rgb(167, 150, 103);
+text-shadow: 2px 2px 2px #000000;     
+}
+.contenedor_carga {
+padding: 3rem;
+}
+.formulario {
+width: 20%;
+padding: 2rem;
+border-radius:10px;
+margin:auto;
+background-color: rgb(139, 39, 14);
+display: flex;
+flex-direction: column;
+align-items:center;
+}    
+.menu_principal {
+background-color: rgb(139, 39, 14);
+font-family: 'Courier New', monospace;
+padding: 1.2rem;
+list-style: none;
+display: flex;
+justify-content: right;
+text-align: left;
+font-size: 20px;
+
+}
+h3{
+font-family: 'Courier New', monospace;
+font-size: 20px;
+text-decoration-line: underline;
+}
+
+.menu_principal a {
+color:white;
+text-decoration: none;
+cursor: pointer;
+padding: 10px 13px;
+border-bottom: 1px solid transparent;
+}
+.formulario input [type="sumbit"] , [value="Cargar Personaje"] {
+width: 40%;
+align-self: flex-end;
+margin-right: 10%;
+height: 2rem;
+margin-top: 8px;
+}
+h2{
+padding-left: 8%;
+}
+h3{
+padding-left: 10%;
+}
+.tienda_contenido{
+color: rgb(77, 77, 77);
+text-shadow: 3px 10px 10px #70623d;
+padding-inline: 35%;
+}
+.tienda{
+color: rgb(77, 77, 77);
+text-shadow: 3px 10px 10px #70623d;
+padding-inline: 10%;
+}
